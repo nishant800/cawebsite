@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(239, 237, 237);
+}
+
+/* Navbar */
+
+
+
+.headtext {
+    margin: 2vw 0;
+    align-content: center;
+    padding: 10px 0;
+    display: flex;
+}
+
+.headtext h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 3rem;
+}
+
+.headtext div {
+    text-align: center;
+    margin: auto;
+    padding: 0px 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.dropdown-item{
+    padding: 0 4rem;
+}
+
+
+/* Poster Image */
+
+.poster {
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+.posterimg {
+    display: flex;
+    float: left;
+}
+
+.poster .posterimg img {
+    width: 100%;
+    height: 400px;
+}
+
+.item {
+    background-color: rgb(245, 138, 56);
+    float: right;
+
+}
+
+.item h3 {
+    color: black;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.item h4 {
+    color: white;
+    text-align: center;
+}
+
+.item h6 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.apbtn {
+    background-color: white;
+    border-radius: 30px;
+    padding: 2px 2px;
+    color: black;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    padding: 11px 35px;
+    font-size: large;
+}
+
+/* Blogs */
+
+
+.blog h1 {
+    text-align: center;
+    margin: 1vw 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.blog {
+    background-image: url("/images/rupee\ symbol.jpg");
+    width: 100%;
+    height: 53vw;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    padding: 1vw 4vw;
+    margin: 5vw 0;
+    background-size: cover;
+}
+
+.blogc {
+    width: 16vw;
+    height: 21vw;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1vw 1vw;
+    padding-top: 1rem;
+    float: left;
+}
+
+.blogc:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.blogimg {
+    background-color: aliceblue;
+    width: 15vw;
+    height: 10vw;
+    margin: auto;
+    display: flex;
+}
+
+.blogimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.blogtxt {
+    background-color: white;
+    width: 15vw;
+    height: 7vw;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.clink {
+    background-color: white;
+    width: 15vw;
+    margin: auto;
+    text-align: center;
+}
+
+.clink a {
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+}
+
+
+/* ----Business Services---- */
+
+.bservices>h1:first-of-type {
+    text-align: center;
+    color: white;
+    padding: 1vw 0;
+    text-transform: uppercase;
+}
+
+.bservices {
+    background-image: url(/images/servicesbg.jpg);
+    padding-bottom: 4vw;
+    background-size: cover;
+}
+
+.indexes {
+    display: flex;
+    margin-top: 1vw;
+}
+
+#indexf {
+    margin-left: 10vw;
+}
+
+.index1 {
+    background-color: white;
+    width: 25vw;
+    height: 29vw;
+    border-radius: 14px;
+    margin-right: 2vw;
+    border: 3px solid rgb(2, 2, 99);
+}
+
+.index1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.index1 h1 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.index1 ul li {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 18px;
+    color: rgb(73, 73, 73);
+}
+
+/* Contact Form */
+.consec {
+    width: 100%;
+    height: 38vw;
+    background-image: url(/images/servicesbg.jpg);
+    background-size: cover;
+    padding: 1vw 1vw;
+    background-size: cover;
+    box-sizing: border-box;
+    display: inline-block;
+   
+}
+
+.conform {
+    width: 32%;
+    height: 30vw;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.588);
+}
+
+.consec h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1vw 0;
+    color: white;
+}
+
+.conform input[type=text] {
+    width: 30vw;
+    padding: 6px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-top: 15px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.conform input[type=email] {
+    width: 30vw;
+    padding: 6px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.conform input[type=number] {
+    width: 30vw;
+    padding: 6px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.conform textarea {
+    width: 30vw;
+    padding: 6px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.conform input[type=checkbox] {
+    margin-bottom: 10px;
+    margin-left: 2%;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+
+
+.conform button[type=submit] {
+    margin-bottom: 10px;
+    margin-left: 2%;
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #3F51B5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 15vw;
+}
+
+.conform img {
+    width: 13vw;
+    margin-bottom: 5px;
+    margin-left: 1vw;
+}
+
+.addresssec {
+    width: 35%;
+    height: 30vw;
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    padding-top: 3rem;
+    background-color: rgba(255, 255, 255, 0.588);
+   
+
+}
+
+.addresssec h1,
+h5,
+h4,
+h6,
+label {
+    color: black;
+    margin-bottom: 1.5rem; 
+}
+
+.addresssec label {
+  
+    font-size: larger;
+}
+
+#BusinessHours option {
+    border-radius: 8px;
+}
+
+.contactmg {
+    height: 30vw;
+    width: 32%;
+    background-color: antiquewhite;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    background-image: url(/images/contactmg.jpg);
+    background-size: cover;
+    
+}
